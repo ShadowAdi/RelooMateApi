@@ -12,6 +12,7 @@ This is a RESTful backend API built for RelooMate’s student housing platform. 
 - **Password Security**: bcrypt
 - **Validation**: express-validator
 - **Environment Configuration**: dotenv
+- **Logging**: Winston
 
 ---
 
