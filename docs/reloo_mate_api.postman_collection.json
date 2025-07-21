@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "b19e9918-b412-4452-99b9-50288cfb7b9d",
+		"name": "reloo_mate_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29633687"
+	},
+	"item": [
+		{
+			"name": "RegisterUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"ak@gmail.com\",\r\n    \"password\":\"iloveadi\",\r\n    \"name\":\"adi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoginUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"ak@gmail.com\",\r\n    \"password\":\"iloveadi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Profile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFrQGdtYWlsLmNvbSIsInN1YiI6IjY4N2RhOGUzYzY5MzhhMTZmNzQwZDMyMSIsImlhdCI6MTc1MzA2NTg3NCwiZXhwIjoxNzUzNjcwNjc0fQ.AmMKwjsFeaiYgrQxocKs2iivMDMlXV6l_VAlV2ij1Bc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Onboarding",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkaUBnbWFpbC5jb20iLCJzdWIiOiI2ODdkYTZhNjZlMTQxNGZmY2VmNThlMDMiLCJpYXQiOjE3NTMwNjUzNTAsImV4cCI6MTc1MzY3MDE1MH0.YliyG1azle7hVA9FXOWzN1lkUxkLd6R2K0UKCQiQsw4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/onboarding",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"onboarding"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
