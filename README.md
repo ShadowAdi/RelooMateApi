@@ -59,6 +59,7 @@ Create a `.env` file in the root directory:
 PORT=3000
 MONGODB_URL=your_mongodb_connection_string
 JSON_SECRET=your_super_secret_key
+MOBILE_DEV_ORIGIN=http://<your-local-ip>:<your-port>
 ```
 
 ### 4. Run the Server
