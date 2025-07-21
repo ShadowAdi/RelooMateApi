@@ -1,5 +1,4 @@
 import cors from "cors";
-import { Express } from "express";
 import { logger } from "./loggerConfig.js";
 export const CorsConfig = (app) => {
   try {

@@ -1,0 +1,10 @@
+2025-07-21 08:02:49 [ERROR]: Failed to login user: Error: data and hash arguments required
+2025-07-21 08:02:49 [ERROR]: Failed to get the error the status code is error and the message is Failed to login user: Error: data and hash arguments required
+2025-07-21 08:08:31 [ERROR]: Token not provided or invalid format. Header: undefined
+2025-07-21 08:08:31 [ERROR]: Failed to get the error the status code is fail and the message is Token not provided or invalid format. Header: undefined
+2025-07-21 08:11:48 [ERROR]: Failed to login user: Error: data and hash arguments required
+2025-07-21 08:11:48 [ERROR]: Failed to get the error the status code is error and the message is Failed to login user: Error: data and hash arguments required
+2025-07-21 08:11:59 [ERROR]: Failed to login user: Error: data and hash arguments required
+2025-07-21 08:11:59 [ERROR]: Failed to get the error the status code is error and the message is Failed to login user: Error: data and hash arguments required
+2025-07-21 08:12:05 [ERROR]: Failed to login user: Error: data and hash arguments required
+2025-07-21 08:12:05 [ERROR]: Failed to get the error the status code is error and the message is Failed to login user: Error: data and hash arguments required
